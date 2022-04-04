@@ -3,6 +3,7 @@ const verify = require('./privateRoutes');
 const Check = require('../models/check');
 
 
+
 // Get all checks for user
 router.get('/', verify, async(req, res) => {
     const userEmail = req.user.email
