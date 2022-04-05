@@ -6,9 +6,10 @@
 # For Signup
 - Using route: http://localhost:8000/api/signup
 - Enter name, email, password
-# After signup, email would be send to your email with token
+- Email must be one of those ( aya.m.abead@gmail.com, ayamohamed102000@gmail.com)
+# After signup, email would be send to the email with token
 - Using http://localhost:8000/api/email-activate
-- Enter your token
+- Enter the token
 # Then login (You must login for CRUD)
 - Using http://localhost:8000/api/login
 - Enter email and password, a token will be generated, use it for CRUD operations
